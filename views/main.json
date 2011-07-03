@@ -1,0 +1,35 @@
+{
+	"style": {
+		"background-color": "white",
+		"border": 10
+	},
+
+	"contents": [
+		{
+			"name": "name",
+			"control": "TextView",
+			"label": "Loading profile...",
+			"style": {
+				"width": "fill-parent",
+				"align": "center"
+			}
+		},
+		{
+			"name": "grid",
+			"control": "CellLayout",
+			"style": {
+				"width": "fill-parent",
+				"height": "fill-parent"
+			}
+		},
+		{
+			"name": "input",
+			"control": "InputBox",
+			"style": {
+				"background-color": "#8888ee",
+				"width": "fill-parent",
+				"height": 20
+			}
+		}
+	]
+}
